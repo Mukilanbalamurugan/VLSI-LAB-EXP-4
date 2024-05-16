@@ -27,7 +27,7 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 ### Logic Diagram:
 ![image](https://github.com/Nandhak23/VLSI-LAB-EXP-4-/assets/160568515/1b2177a8-188e-4f48-b15a-d7c9b8593b3b)
 ### Verilog Code:
-```
+~~~
 module srff(s,r,clk,rst,q);
 input s,r,clk,rst;
 output reg q;
@@ -46,7 +46,7 @@ endcase
 end
 end
 endmodule
-```
+~~~
 ### Output:
 ![image](https://github.com/Nandhak23/VLSI-LAB-EXP-4-/assets/160568515/fde5adbc-d127-43c7-9c3a-c97e33c69621)
 
